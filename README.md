@@ -1,4 +1,4 @@
-#SSHack
+# SSHack
 ## Getting Started
 This tool does the following:
  - takes an IP (example: 192.168.0.0) and search the the subnet (192.168.0.0/24) for SSH open ports.
