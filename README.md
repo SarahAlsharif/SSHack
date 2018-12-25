@@ -7,12 +7,12 @@ This tool does the following:
  - takes a new password to change the hacked user password, and it uses the same password for the new account.
   
 ### Installing
-after downloading the files (SSHack and SSHackSup)
-1- Give SSHack execution permission:
+After downloading the files (SSHack and SSHackSup)
+- Give SSHack execution permission:
 ```
 sudo chmod 755 SSHack
 ```
-2- Give SSHackSup execution permission:
+- Give SSHackSup execution permission:
 ```
 sudo chmod 755 SSHackSub
 ```
