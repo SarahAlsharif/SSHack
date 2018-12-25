@@ -1,0 +1,16 @@
+#!/bin/bash 
+  
+read -p "Enter IP subnet to be searched: " ipSubnet  
+  
+sudo nmap -sS -p 22 --open $ipSubnet/24 |grep -Po "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" > ipWithOpenSSH
+
+read -p "Enter ssh username:" username 
+echo "$username" > info.txt
+read -p "Enter ssh password:" password
+echo "$password" >> info.txt
+read -p "Enter new account name:" accountname
+echo "$accountname" >> info.txt
+read -p "Enter new account and root password:" newpassword
+echo "$newpassword" >> info.txt
+
+./SSHackSup
